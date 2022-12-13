@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url('./image1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.txt{
+    top: 20%;
+    text-align: center;
+}
+.cal{
+
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 300px;
+    padding: 10px;
+    
+}
+.cal input{
+    font-size: 25px;
+    padding: 7px;
+    width:53%;
+    height: 51px;
+    border-radius: 10px;
+}
+.btn{
+   
+    padding: 14px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  
